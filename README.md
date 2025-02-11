@@ -24,3 +24,10 @@ Instalar styled-components
 ```
 npm i styled-components
 ```
+
+Biblioteca de icones
+```
+npm install react-icons
+```
+
+https://react-icons.github.io/react-icons/
