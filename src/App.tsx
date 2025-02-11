@@ -1,9 +1,9 @@
-import { TituloTeste } from "./styles/pages/home.style";
+import { TituloTeste } from './styles/pages/home.style';
 
 export function App() {
-  return (
-    <>
-      <TituloTeste>Hello World</TituloTeste>
-    </>
-  );
+    return (
+        <>
+            <TituloTeste>Hello World</TituloTeste>
+        </>
+    );
 }
