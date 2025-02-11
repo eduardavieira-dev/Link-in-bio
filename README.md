@@ -19,3 +19,8 @@ Biblioteca do prettier
 ```
 npm i prettier --save-dev
 ```
+
+Instalar styled-components
+```
+npm i styled-components
+```

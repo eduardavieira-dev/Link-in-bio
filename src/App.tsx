@@ -1,7 +1,9 @@
+import { TituloTeste } from "./styles/pages/home.style";
+
 export function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <TituloTeste>Hello World</TituloTeste>
     </>
   );
 }
