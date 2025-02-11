@@ -1,9 +1,12 @@
-import { TituloTeste } from './styles/pages/home.style';
+import { ProfileHeader } from "./components/ProfileHeader";
+import { MainContainer } from "./styles/pages/Home/home.style";
 
 export function App() {
     return (
         <>
-            <TituloTeste>Hello World</TituloTeste>
+            <MainContainer>
+              <ProfileHeader></ProfileHeader>
+            </MainContainer>
         </>
     );
 }
