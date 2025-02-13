@@ -10,15 +10,16 @@ export const Button = styled.a`
     45deg,
     #9b34ef 0%,
     #490cb0 20%,
-    #490cb0   60%,
-    #490cb0 80%,
-    transparent 100%
-  );
+    #490cb0  60%,
+    transparent 80%
+    );
+    background-size: 250%;
     color: var(--white-color);
     outline: 2px solid transparent;
     text-align: center;
     text-decoration: none;
-    transition: ease all .3s;
+    transition: background 1s, outline 1s, transform 1s;
+
     
     &:link,
     &:visited {
@@ -27,8 +28,9 @@ export const Button = styled.a`
     }
 
     &:hover {
-        background-color: var(--primary-color);
+        background: transparent;
         outline: 2px solid var(--outline);
         color: var(--white-color);
+        transform: scale(1.03);
     }
     `;

@@ -12,7 +12,7 @@ export const  SocialMediaLink = styled.a`
     }
 
     &:hover{
-        color: var(--primary-color);
+        color: var(--btnFirst);
     }
 
 `;
