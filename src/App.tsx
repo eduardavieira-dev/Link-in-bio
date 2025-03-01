@@ -13,11 +13,11 @@ export function App() {
                     text="Meus projetos no GitHub"
                 />
                 <LinkButton
-                    link="https://github.com/eduardavieira-dev"
+                    link="https://discord.com/users/eduardavieira07"
                     text="Conecte-se comigo no discord"
                 />
                 <LinkButton
-                    link="https://github.com/eduardavieira-dev"
+                    link="https://instagram.com/eduardavieira.dev"
                     text="Acompanhe meu studygram"
                 />
                
