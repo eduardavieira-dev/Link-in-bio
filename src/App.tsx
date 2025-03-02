@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { LinkButton } from "./components/LinkButton";
 import { ProfileHeader } from "./components/ProfileHeader";
 import { links } from "./data/links";
@@ -18,6 +19,7 @@ export function App() {
                     />
                  ))}
               </LinksContainer>
+              <Footer/>
             </MainContainer>
         </>
     );

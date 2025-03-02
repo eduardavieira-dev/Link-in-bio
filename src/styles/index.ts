@@ -28,7 +28,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     ::selection {
-        background-color: var(--primary-color);
+        background-color: var(--btnFirst);
         color: var(--white-color);
     }
 
