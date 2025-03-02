@@ -1,6 +1,7 @@
 # Projeto Link-in-bio
 
-![Imagem do Projeto](protejo.jpg)
+<img src="projeto.png" width="280px" alt="">
+
 
 ## Descrição
 

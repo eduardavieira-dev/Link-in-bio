@@ -1,5 +1,6 @@
 import { LinkButton } from "./components/LinkButton";
 import { ProfileHeader } from "./components/ProfileHeader";
+import { links } from "./data/links";
 import { LinksContainer, MainContainer } from "./styles/pages/Home/home.style";
 
 export function App() {
@@ -8,19 +9,14 @@ export function App() {
             <MainContainer>
               <ProfileHeader/>
               <LinksContainer>
-                <LinkButton
-                    link="https://github.com/eduardavieira-dev"
-                    text="Meus projetos no GitHub"
-                />
-                <LinkButton
-                    link="https://discord.com/users/eduardavieira07"
-                    text="Conecte-se comigo no discord"
-                />
-                <LinkButton
-                    link="https://instagram.com/eduardavieira.dev"
-                    text="Acompanhe meu studygram"
-                />
-               
+                 {links.map(({id, link, text}) => (
+                    <LinkButton
+                    //props
+                        key={id}
+                        link={link}
+                        text={text}
+                    />
+                 ))}
               </LinksContainer>
             </MainContainer>
         </>
